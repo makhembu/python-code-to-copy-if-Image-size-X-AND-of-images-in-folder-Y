@@ -1,1 +1,2 @@
 # python-code-to-copy-if-Image-size-X-AND-of-images-in-folder-Y
+This code will check the size of each image in the source_dir directory, and if the size is less than max_size and the number of images in the directory is less than max_images, it will copy the image to the target_dir directory. The Image module from the Python Imaging Library (PIL) is used to open and get the size of the images. The os and shutil modules are used to list the files in a directory and copy files, respectively.
